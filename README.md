@@ -1,27 +1,21 @@
-﻿*Recommended Markdown Viewer: [Markdown Editor](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor2)*
+﻿# Theme Dump
 
-## Getting Started
+Dump theme data of WinUI3
 
-Browse and address `TODO:` comments in `View -> Task List` to learn the codebase and understand next steps for turning the generated code into production code.
+## Environment
 
-Explore the [WinUI Gallery](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) to learn about available controls and design patterns.
+- CommunityTookit.Mvvm 8.2.2
+- Microsoft.Extensions.Hosting 8.0.0
+- Microsoft.WindowsAppSDK 1.5.2
+- Microsoft.Xaml.Behaviors.WinUI.Managed 2.09
+- Newtonsoft.Json 13.03
+- WinUIEx 2.3.4
+- .NET 7.0
 
-Relaunch Template Studio to modify the project by right-clicking on the project in `View -> Solution Explorer` then selecting `Add -> New Item (Template Studio)`.
+## Usage
 
-## Publishing
+1. Select system theme in your system settings
+2. Run the program, and click the `Dump theme` button
+3. the dumped theme is located in `ThemeDump\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Assets`
 
-For projects with MSIX packaging, right-click on the application project and select `Package and Publish -> Create App Packages...` to create an MSIX package.
-
-For projects without MSIX packaging, follow the [deployment guide](https://docs.microsoft.com/windows/apps/windows-app-sdk/deploy-unpackaged-apps) or add the `Self-Contained` Feature to enable xcopy deployment.
-
-## CI Pipelines
-
-See [README.md](https://github.com/microsoft/TemplateStudio/blob/main/docs/WinUI/pipelines/README.md) for guidance on building and testing projects in CI pipelines.
-
-## Changelog
-
-See [releases](https://github.com/microsoft/TemplateStudio/releases) and [milestones](https://github.com/microsoft/TemplateStudio/milestones).
-
-## Feedback
-
-Bugs and feature requests should be filed at https://aka.ms/templatestudio.
+`Assets/keys.json` stores the data keys to dump
