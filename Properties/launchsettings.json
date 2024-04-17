@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "ThemeDump (Unpackaged)": {
+        "commandName": "Project"
+      },
+      "ThemeDump (Package)": {
+        "commandName": "MsixPackage"
+      }
+    }
+}
